@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2014, 2:32:38 PM
+    Author     : Satinder
+*/
+
+body {
+   background: url(http://images2.alphacoders.com/141/141340.jpg);
+   background-size:cover;
+   color:white;
+  font-size: 100%;
+  font: 'ChunkFiveRegular';
+}
+
+.expandWidth{
+   padding: 30px;
+}
+
+
+
+
+#heading3d{ 
+    text-align: center;   
+    color: #a10a23;
+    // color: #fff 
+   // color: #3b5998;  
+    text-shadow: 0px 1px 0px #999,
+        0px 2px 0px #888,
+        0px 3px 0px #777,
+        0px 4px 0px #666,
+        0px 5px 0px #555,
+        0px 6px 0px #444,
+        0px 7px 0px #333,
+        0px 8px 7px #001135;
+    font: 120px 'ChunkFiveRegular'; 
+}  
+
+
+.heading3d2{ 
+    text-align: center;  
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    color: #a10a23;  
+    text-shadow: 0px 1px 0px #999,
+        0px 2px 0px #888,
+        0px 3px 0px #777,
+        0px 4px 0px #666,
+        0px 5px 0px #555,
+        0px 6px 0px #444,
+        0px 7px 0px #333,
+        0px 8px 7px #001135;
+    font: 60px 'ChunkFiveRegular'; 
+}  
+
+
+
+
+
+
+tr.rowRedHover:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.someImage{
+    border: 1px solid black;
+}
+
+.someImage:hover{
+    width: 100px;
+}
+
+.centerShoppingCart{
+  margin-left: 900;
+}
+
+
+
+
+

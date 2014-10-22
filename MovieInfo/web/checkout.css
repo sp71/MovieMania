@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2014, 3:30:39 PM
+    Author     : Satinder
+*/
+
+
+#upperLeftCorner{
+ text-align: left;
+}
+
+body {
+   background: url(http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide.jpg);
+   background-size:cover;
+   color:white;
+}
+
+.increaseText3{
+font-size:40px;
+color: #a10a23;
+}
+
+
+.increaseText4{
+font-size:40px;
+}
+
+.increaseText2{
+     color: red; 
+     margin: auto;
+    text-align: center;   
+   
+    text-shadow: 0px 1px 0px #999,
+        0px 1px 0px #888,
+        0px 2px 0px #777,
+        0px 2px 0px #666,
+        0px 3px 0px #555,
+        0px 4px 0px #444,
+        0px 4px 0px #333,
+        0px 5px 4px #001135;
+    font: 25px 'ChunkFiveRegular';    
+}
+
+#topHeadingCustomer{
+    margin: auto;
+    text-align: center;   
+    color: #a10a23; 
+    text-shadow: 0px 1px 0px #999,
+        0px 2px 0px #888,
+        0px 3px 0px #777,
+        0px 4px 0px #666,
+        0px 5px 0px #555,
+        0px 6px 0px #444,
+        0px 7px 0px #333,
+        0px 8px 7px #001135;
+    font: 80px 'ChunkFiveRegular'; 
+}  
+
+#submitButtonCheckout:hover{
+     color: white;         
+  background: #a10a23;   
+}
+
+
+.glowTextBlox{
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ border:2px solid #dadada;
+ // border-radius: 5px;
+}
+
+.glowTextBlox:focus{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+
+.increaseText{
+font-size: 1.5em;
+//font-weight: bold;
+}

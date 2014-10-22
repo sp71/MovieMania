@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2014, 3:17:59 PM
+    Author     : Satinder
+*/
+
+body {
+   background: url(http://hdwallcomp.com/wp-content/uploads/2014/01/Batman-Movie-Wallpaper.jpg);
+   color:white;
+}
+
+
+#topHeading1{ 
+    text-align: left;   
+    color: #a10a23; 
+    text-shadow: 0px 1px 0px #999,
+        0px 2px 0px #888,
+        0px 3px 0px #777,
+        0px 4px 0px #666,
+        0px 5px 0px #555,
+        0px 6px 0px #444,
+        0px 7px 0px #333,
+        0px 8px 7px #001135;
+    font: 80px 'ChunkFiveRegular'; 
+}  
+
+.topTableColor{
+  background-color: #f0f0f0;
+  color: black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -web-box-show:5px 5px 5px black;
+}
+.bottomTableColor{
+  background-color: #fffcd1;
+ color: black;
+ margin-left: auto;
+   box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -web-box-show:5px 5px 5px black;
+}
+
+
+.bottomTableColor:hover{
+  background-color: gainsboro;;
+ color: black;
+ margin-left: auto;
+   box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -web-box-show:5px 5px 5px black;
+}
+
+.redButton{
+    padding: 0.8em;
+    color: #fff;
+    background: #a10a23;
+    width: 6em;
+}
+
+.redButtonRemove{
+    padding: 0.8em;
+    color: #fff;
+    background: #a10a23;
+    width: 8em;
+}
+
+
+
+.rowBackColorNHover{
+    background: #fff;
+    color: black;
+      box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -web-box-show:5px 5px 5px black;
+}
+
+
+.rowBackColorNHover:hover{
+    background:  gainsboro;
+    color: black;
+      box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -web-box-show:5px 5px 5px black;
+}
+
+#resumeSubmitHover{
+  width: 12em;
+ padding: 0.8em; 
+}
+
+
+#resumeSubmitHover:hover{
+     color: white;         
+  background: #a10a23;   
+}
+
+
+
+#submitButton9{    
+ width: 12em;
+ padding: 0.8em;
+}
+
+
+/* Everything below is for shaking SUBMIT BUTTON + Button color  */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    -ms-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    -ms-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+
+
+
+.tada:hover {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+  color: white;         
+  background: #a10a23;  
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
